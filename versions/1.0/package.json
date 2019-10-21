@@ -1,0 +1,31 @@
+{
+  "name": "MineWorld",
+  "version": "1.0.0",
+  "main": "1.0.js",
+  "author": "Eli",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "@nodegui/qode": "^1.0.5",
+    "electron": "^6.0.12",
+    "fstream": "^1.0.12",
+    "makefile": "0.0.2",
+    "minimatch": "^3.0.4",
+    "mw-block-libs": "^1.0.0",
+    "mw-seed-gen": "^1.0.5",
+    "mw-world-gen": "^1.0.3",
+    "omg": "^1.0.0-alpha6",
+    "robloach-datfile": "^2.2.0",
+    "vs": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "file-loader": "^4.2.0",
+    "node-loader": "^0.6.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  }
+}

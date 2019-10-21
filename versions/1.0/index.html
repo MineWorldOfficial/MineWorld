@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>MineWorld 1.0</title>
+    <style>
+      body {
+        font-family: "Courier New", Courier, Monospace;
+        background-color: gray;
+      }
+      h1 {
+        color: white;
+      }
+    </style>
+    <script>
+      // this will run when the page loads
+      function scanWorlds() {
+        alert("No worlds found.")
+      }
+      function load() {
+        alert("Loading world {new}...")
+      }
+    </script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';" />
+  </head>
+  <body>
+    <h1>MineWorld</h1>
+    <br>
+    <a href="#" onClick="load()">World generated! Click here to load it.</a>
+  </body>
+</html>
