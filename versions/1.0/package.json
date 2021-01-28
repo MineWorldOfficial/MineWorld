@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@nodegui/qode": "^1.0.5",
-    "electron": "^6.0.12",
+    "electron": "^9.4.0",
     "fstream": "^1.0.12",
     "makefile": "0.0.2",
     "minimatch": "^3.0.4",
